@@ -19,13 +19,11 @@
 </p>
 
 
-Minecraft proxy/bot intended for use on Palanarchy.org this is a fork of original ZenithProxy for 2b2t by rfresh 
+Minecraft proxy/bot intended for use on Palanarchy.org this is a fork of original ZenithProxy for 2b2t by [rfresh](https://github.com/rfresh2)
 
 Unlike a traditional MC bot, you can login to it as a normal MC server and control the account.
 
 The primary purpose is to have accounts always online in-game and securely shared by multiple people.
-
-This project is also used to support the [2b2t.vc API](https://api.2b2t.vc) and [Discord Bot](https://bot.2b2t.vc).
 
 <details>
     <summary>What is a proxy?</summary>
