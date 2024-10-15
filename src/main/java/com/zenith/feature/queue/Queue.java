@@ -78,7 +78,7 @@ public class Queue {
 
     public static boolean pingUpdate() {
         try {
-            final FinalResponse pingWithDetails = mcPing.ping("connect.2b2t.org", 25565, 3000, false);
+            final FinalResponse pingWithDetails = mcPing.ping("palanarchy.org", 25565, 3000, false);
             final String queueStr = pingWithDetails.getPlayers().getSample().get(1).getName();
             final Matcher regularQMatcher = digitPattern.matcher(queueStr.substring(queueStr.lastIndexOf(" ")));
             final String prioQueueStr = pingWithDetails.getPlayers().getSample().get(2).getName();

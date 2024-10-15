@@ -413,7 +413,7 @@ public class Proxy {
         }
         CLIENT_LOG.info("Connecting to {}:{}...", address, port);
         this.client = new ClientSession(address, port, CONFIG.client.bindAddress, minecraftProtocol, getClientProxyInfo(), tcpManager);
-        if (Objects.equals(address, "connect.2b2t.org"))
+        if (Objects.equals(address, "palanarchy.org")) //Changing IP for Palanarchy
             this.client.setFlag(BuiltinFlags.ATTEMPT_SRV_RESOLVE, false);
         this.client.setReadTimeout(CONFIG.client.timeout.enable ? CONFIG.client.timeout.seconds : 0);
         this.client.setFlag(MinecraftConstants.CLIENT_CHANNEL_INITIALIZER, ZenithClientChannelInitializer.FACTORY);
@@ -685,7 +685,7 @@ public class Proxy {
     }
 
     public boolean isOn2b2t() {
-        return CONFIG.client.server.address.toLowerCase().endsWith("2b2t.org");
+        return CONFIG.client.server.address.toLowerCase().endsWith("palanarchy.org");
     }
 
     public long getOnlineTimeSeconds() {
