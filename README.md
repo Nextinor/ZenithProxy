@@ -19,7 +19,7 @@
 </p>
 
 
-Minecraft proxy/bot intended for use on 2b2t.org. 
+Minecraft proxy/bot intended for use on Palanarchy.org this is a fork of original ZenithProxy for 2b2t by rfresh 
 
 Unlike a traditional MC bot, you can login to it as a normal MC server and control the account.
 
